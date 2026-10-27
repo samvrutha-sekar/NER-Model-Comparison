@@ -1,0 +1,18 @@
+dataset,model,id,error,text,label
+dev,gliner,d02,FALSE_POSITIVE,announced,EVENT
+dev,gliner,d03,FALSE_POSITIVE,clinic,LOCATION
+dev,gliner,d06,FALSE_POSITIVE,proposal,EVENT
+dev,gliner,d06,FALSE_POSITIVE,she,PERSON
+dev,gliner,d07,FALSE_POSITIVE,finals,EVENT
+dev,gliner,d07,FALSE_POSITIVE,hwa chong institution,LOCATION
+dev,gliner,d07,FALSE_POSITIVE,raffles institution,LOCATION
+dev,gliner,d07,FALSE_POSITIVE,students,PERSON
+dev,gliner,d07,FALSE_NEGATIVE,hwa chong institution,ORG
+dev,gliner,d07,FALSE_NEGATIVE,raffles institution,ORG
+dev,gliner,d09,FALSE_POSITIVE,flooded,EVENT
+dev,gliner,d09,FALSE_POSITIVE,last week,EVENT
+dev,gliner,d09,FALSE_POSITIVE,the mekong,ORG
+dev,gliner,d09,FALSE_NEGATIVE,mekong,LOCATION
+dev,qwen3_4b,d03,FALSE_NEGATIVE,chinese new year,EVENT
+dev,qwen3_8b,d07,FALSE_POSITIVE,finals,EVENT
+dev,qwen3_8b,d09,FALSE_POSITIVE,last week,EVENT

@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-27T18:08:49.007107+00:00",
+  "models": [
+    {
+      "name": "gliner",
+      "runner": "gliner",
+      "model_name": null
+    },
+    {
+      "name": "qwen3_4b",
+      "runner": "qwen3",
+      "model_name": "qwen3:4b"
+    },
+    {
+      "name": "qwen3_8b",
+      "runner": "qwen3",
+      "model_name": "qwen3:8b"
+    }
+  ],
+  "source_sha256": {
+    "Harness/run.py": "0a43e08ec667cd626442c89396c93e6a98683ab04b51f52f98db1c2d29d15ebd",
+    "Harness/postprocess.py": "308153536a9935be6245f94dd15d9bad5600883de11c1248d2fbb66fed5105f4",
+    "Harness/Models/gliner_runner.py": "d39a8746959870d2ebb3bbdf44bfbfb080d0c8ab9a0c788791a9aed0c30116c5",
+    "Harness/Models/llm_runner.py": "453a0bc0d3b2b457ed24f1fe6c4a0cae72a6ea584e2fb5b4f61201c9f3a41c47",
+    "score.py": "61d18d1ee7660625c8f0e06102ad458327f9cecef4baf45777eea87ea1c45e50",
+    "run_all.py": "c9ec00541030ba7c69cca82dad7437cc8aec3eeb34ff6dbb5926c4d1b217b261"
+  },
+  "dev_dataset_sha256": "e2268db9e8038956219c9df8df0d17084839c35356466f53d9bc8e77e1260aee",
+  "test_dataset_sha256": "4e92b1200692fda2494c8052c589d384f613483ffadb450e94f438384990397d",
+  "note": "Do not tune models or postprocessing based on test results."
+}

@@ -1,0 +1,130 @@
+dataset,model,id,error,text,label
+test,gliner,t01,FALSE_POSITIVE,data centre,ORG
+test,gliner,t01,FALSE_POSITIVE,monday,EVENT
+test,gliner,t02,FALSE_POSITIVE,water projects,EVENT
+test,gliner,t03,FALSE_POSITIVE,phoenix capital,LOCATION
+test,gliner,t03,FALSE_NEGATIVE,phoenix capital,ORG
+test,gliner,t04,FALSE_POSITIVE,tuesday,EVENT
+test,gliner,t06,FALSE_POSITIVE,closing,EVENT
+test,gliner,t07,FALSE_POSITIVE,asean leaders,PERSON
+test,gliner,t07,FALSE_NEGATIVE,asean,ORG
+test,gliner,t08,FALSE_POSITIVE,bus routes,ORG
+test,gliner,t08,FALSE_POSITIVE,reviewing,EVENT
+test,gliner,t08,FALSE_NEGATIVE,land transport authority,ORG
+test,gliner,t08,FALSE_NEGATIVE,ministry of transport,ORG
+test,gliner,t09,FALSE_POSITIVE,state lottery,EVENT
+test,gliner,t11,FALSE_POSITIVE,he,PERSON
+test,gliner,t11,FALSE_POSITIVE,results,EVENT
+test,gliner,t11,FALSE_POSITIVE,they,PERSON
+test,gliner,t13,FALSE_POSITIVE,families,PERSON
+test,gliner,t14,FALSE_NEGATIVE,greenfield bank,ORG
+test,gliner,t14,FALSE_NEGATIVE,harbour daily,ORG
+test,gliner,t15,FALSE_POSITIVE,dinamo riga,LOCATION
+test,gliner,t15,FALSE_POSITIVE,tallinn,LOCATION
+test,gliner,t15,FALSE_NEGATIVE,dinamo riga,ORG
+test,gliner,t15,FALSE_NEGATIVE,tallinn united,ORG
+test,gliner,t16,FALSE_POSITIVE,diwali celebrations,EVENT
+test,gliner,t16,FALSE_NEGATIVE,diwali,EVENT
+test,gliner,t17,FALSE_POSITIVE,warned,EVENT
+test,gliner,t19,FALSE_POSITIVE,mapped,EVENT
+test,gliner,t19,FALSE_POSITIVE,researchers,PERSON
+test,gliner,t19,FALSE_NEGATIVE,amazon,LOCATION
+test,gliner,t20,FALSE_POSITIVE,the report,EVENT
+test,gliner,t22,FALSE_POSITIVE,a spokesperson,PERSON
+test,gliner,t22,FALSE_POSITIVE,outage,EVENT
+test,gliner,t22,FALSE_NEGATIVE,bluewave telecom,ORG
+test,gliner,t24,FALSE_NEGATIVE,university of auckland,ORG
+test,gliner,t25,FALSE_POSITIVE,traffic,EVENT
+test,gliner,t25,FALSE_POSITIVE,travellers,PERSON
+test,gliner,t26,FALSE_POSITIVE,trial,EVENT
+test,gliner,t27,FALSE_POSITIVE,chef arturo gil,PERSON
+test,gliner,t27,FALSE_POSITIVE,chef mei ling zhou,PERSON
+test,gliner,t27,FALSE_NEGATIVE,arturo gil,PERSON
+test,gliner,t27,FALSE_NEGATIVE,mei ling zhou,PERSON
+test,gliner,t28,FALSE_POSITIVE,the straits orchestra,ORG
+test,gliner,t28,FALSE_NEGATIVE,straits orchestra,ORG
+test,gliner,t29,FALSE_POSITIVE,missing hiker,PERSON
+test,gliner,t29,FALSE_POSITIVE,nobody,PERSON
+test,gliner,t29,FALSE_POSITIVE,sunday,EVENT
+test,gliner,t31,FALSE_POSITIVE,flooding,EVENT
+test,gliner,t31,FALSE_POSITIVE,indonesian football association,PERSON
+test,gliner,t31,FALSE_POSITIVE,match,EVENT
+test,gliner,t31,FALSE_NEGATIVE,indonesian football association,ORG
+test,gliner,t33,FALSE_POSITIVE,we,PERSON
+test,gliner,t34,FALSE_POSITIVE,district science fair,EVENT
+test,gliner,t34,FALSE_POSITIVE,oakridge primary school,LOCATION
+test,gliner,t34,FALSE_NEGATIVE,oakridge primary school,ORG
+test,gliner,t35,FALSE_POSITIVE,audience,EVENT
+test,gliner,t36,FALSE_POSITIVE,signed an agreement,EVENT
+test,gliner,t36,FALSE_NEGATIVE,evergreen insurance,ORG
+test,gliner,t36,FALSE_NEGATIVE,northshore trust,ORG
+test,gliner,t37,FALSE_POSITIVE,madras cricket club,LOCATION
+test,gliner,t37,FALSE_NEGATIVE,madras cricket club,ORG
+test,gliner,t38,FALSE_POSITIVE,bleaching event,EVENT
+test,gliner,t38,FALSE_POSITIVE,scientists,PERSON
+test,gliner,t38,FALSE_NEGATIVE,great barrier reef,LOCATION
+test,gliner,t40,FALSE_POSITIVE,dubai,LOCATION
+test,gliner,t41,FALSE_POSITIVE,match,EVENT
+test,gliner,t41,FALSE_POSITIVE,sentosa,LOCATION
+test,gliner,t41,FALSE_NEGATIVE,sentosa sharks,ORG
+test,gliner,t42,FALSE_POSITIVE,thursday,EVENT
+test,gliner,t44,FALSE_POSITIVE,jury,ORG
+test,gliner,t45,FALSE_POSITIVE,local residents,PERSON
+test,gliner,t45,FALSE_POSITIVE,noise,EVENT
+test,gliner,t46,FALSE_POSITIVE,seoul,LOCATION
+test,gliner,t46,FALSE_POSITIVE,two nations,PERSON
+test,gliner,t46,FALSE_NEGATIVE,seoul olympics,EVENT
+test,gliner,t49,FALSE_POSITIVE,brother anselm,PERSON
+test,gliner,t49,FALSE_NEGATIVE,anselm,PERSON
+test,gliner,t49,FALSE_NEGATIVE,st. andrew's mission,ORG
+test,gliner,t50,FALSE_POSITIVE,councillor grace tay,PERSON
+test,gliner,t50,FALSE_POSITIVE,friday,EVENT
+test,gliner,t50,FALSE_POSITIVE,lakeside residents' association,LOCATION
+test,gliner,t50,FALSE_NEGATIVE,grace tay,PERSON
+test,gliner,t50,FALSE_NEGATIVE,lakeside residents' association,ORG
+test,qwen3_4b,t02,FALSE_POSITIVE,jordanian,ORG
+test,qwen3_4b,t03,FALSE_POSITIVE,chief financial officer,EVENT
+test,qwen3_4b,t04,FALSE_NEGATIVE,phoenix,LOCATION
+test,qwen3_4b,t09,FALSE_POSITIVE,state lottery,EVENT
+test,qwen3_4b,t10,FALSE_POSITIVE,kochi,LOCATION
+test,qwen3_4b,t10,FALSE_POSITIVE,muziris biennale,EVENT
+test,qwen3_4b,t10,FALSE_NEGATIVE,kochi muziris biennale,EVENT
+test,qwen3_4b,t14,FALSE_NEGATIVE,harbour daily,ORG
+test,qwen3_4b,t19,FALSE_NEGATIVE,amazon,LOCATION
+test,qwen3_4b,t23,FALSE_POSITIVE,formula 1,ORG
+test,qwen3_4b,t23,FALSE_POSITIVE,grand prix,EVENT
+test,qwen3_4b,t23,FALSE_POSITIVE,singapore,LOCATION
+test,qwen3_4b,t23,FALSE_NEGATIVE,formula 1 singapore grand prix,EVENT
+test,qwen3_4b,t27,FALSE_POSITIVE,chef arturo gil,PERSON
+test,qwen3_4b,t27,FALSE_POSITIVE,chef mei ling zhou,PERSON
+test,qwen3_4b,t27,FALSE_NEGATIVE,arturo gil,PERSON
+test,qwen3_4b,t27,FALSE_NEGATIVE,mei ling zhou,PERSON
+test,qwen3_4b,t28,FALSE_POSITIVE,the straits orchestra,ORG
+test,qwen3_4b,t28,FALSE_NEGATIVE,straits orchestra,ORG
+test,qwen3_4b,t34,FALSE_POSITIVE,12 march,EVENT
+test,qwen3_4b,t34,FALSE_POSITIVE,district science fair,EVENT
+test,qwen3_4b,t38,FALSE_POSITIVE,bleaching event,EVENT
+test,qwen3_4b,t38,FALSE_POSITIVE,the great barrier reef,LOCATION
+test,qwen3_4b,t38,FALSE_NEGATIVE,great barrier reef,LOCATION
+test,qwen3_4b,t40,FALSE_POSITIVE,deadline in dubai,EVENT
+test,qwen3_4b,t49,FALSE_POSITIVE,brother anselm,PERSON
+test,qwen3_4b,t49,FALSE_NEGATIVE,anselm,PERSON
+test,qwen3_4b,t50,FALSE_POSITIVE,councillor grace tay,PERSON
+test,qwen3_4b,t50,FALSE_NEGATIVE,grace tay,PERSON
+test,qwen3_4b,t50,FALSE_NEGATIVE,lakeside residents' association,ORG
+test,qwen3_8b,t01,FALSE_POSITIVE,monday,EVENT
+test,qwen3_8b,t02,FALSE_POSITIVE,jordanian,LOCATION
+test,qwen3_8b,t02,FALSE_POSITIVE,water projects,EVENT
+test,qwen3_8b,t03,FALSE_POSITIVE,chief financial officer,EVENT
+test,qwen3_8b,t04,FALSE_NEGATIVE,phoenix,LOCATION
+test,qwen3_8b,t09,FALSE_POSITIVE,state lottery,EVENT
+test,qwen3_8b,t23,FALSE_POSITIVE,formula 1,ORG
+test,qwen3_8b,t23,FALSE_POSITIVE,singapore grand prix,EVENT
+test,qwen3_8b,t23,FALSE_NEGATIVE,formula 1 singapore grand prix,EVENT
+test,qwen3_8b,t34,FALSE_POSITIVE,12 march,EVENT
+test,qwen3_8b,t34,FALSE_POSITIVE,district science fair,EVENT
+test,qwen3_8b,t36,FALSE_POSITIVE,wednesday,EVENT
+test,qwen3_8b,t38,FALSE_POSITIVE,bleaching event,EVENT
+test,qwen3_8b,t40,FALSE_POSITIVE,dubai,LOCATION
+test,qwen3_8b,t41,FALSE_POSITIVE,match,EVENT
+test,qwen3_8b,t50,FALSE_POSITIVE,friday,EVENT

@@ -1,0 +1,20 @@
+{
+  "model": "gliner",
+  "dataset": "C:\\Users\\Samvrutha DV\\OneDrive\\Desktop\\samuu\\NER_Project\\data\\dev.jsonl",
+  "snippet_count": 10,
+  "prediction_errors": 0,
+  "median_latency_seconds": 0.1464587000082247,
+  "p95_latency_seconds": 0.1574100999860093,
+  "latencies_seconds": [
+    0.16257949999999255,
+    0.14084690005984157,
+    0.1423565000295639,
+    0.14461499999742955,
+    0.14830240001901984,
+    0.1286333000753075,
+    0.15419880009721965,
+    0.1574100999860093,
+    0.13737820007372648,
+    0.15704790002200752
+  ]
+}

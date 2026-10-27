@@ -1,0 +1,7 @@
+snippets scored: 10  missing predictions: 0  unknown ids: 0
+label           P      R     F1    TP    FP    FN
+PERSON      1.000  1.000  1.000     6     0     0
+ORG         1.000  1.000  1.000     5     0     0
+LOCATION    1.000  1.000  1.000     9     0     0
+EVENT       0.667  1.000  0.800     4     2     0
+MICRO-ALL   0.923  1.000  0.960    24     2     0
