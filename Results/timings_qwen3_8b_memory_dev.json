@@ -1,0 +1,20 @@
+{
+  "model": "qwen3_8b",
+  "dataset": "C:\\Users\\Samvrutha DV\\OneDrive\\Desktop\\samuu\\NER_Project\\data\\memory_dev.jsonl",
+  "snippet_count": 10,
+  "prediction_errors": 0,
+  "median_latency_seconds": 7.062462450005114,
+  "p95_latency_seconds": 8.994360499898903,
+  "latencies_seconds": [
+    8.542416700045578,
+    7.093816100037657,
+    6.17805819993373,
+    5.172827900038101,
+    5.852908600005321,
+    1.6206062999553978,
+    7.752446400001645,
+    9.62824480002746,
+    7.031108799972571,
+    8.994360499898903
+  ]
+}

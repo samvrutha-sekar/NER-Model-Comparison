@@ -1,0 +1,4 @@
+"model","dataset","peak_sampled_process_rss_mib","sampling_interval_seconds"
+"gliner","memory_dev.jsonl","2248.64","0.2"
+"qwen3:4b","memory_dev.jsonl","2854.56","0.2"
+"qwen3:8b","memory_dev.jsonl","8153.46","0.2"
